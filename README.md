@@ -1,16 +1,16 @@
 # SpriteGAN
+SpriteGAN generates Pokèmon sprites from original 151 Pokèmon Yellow sprites.
+It is a implementation of DCGAN using the keras library.
+
 Deep Convolutional Generative Adversarial Network consists of two networks: 
 * Generator - tries to generate fake images from noise so as to fool the discriminator network
 * Discriminator - tries to distinguish real images from fake ones
 
-SpriteGAN generates Pokèmon sprites from original 151 Pokèmon Yellow sprites
-
-
 # Dependencies
-* Keras (Tensorflow Backend)
+* [Keras (Tensorflow Backend)](https://keras.io/)
 * Numpy
 * ImageIO
-* Jupyter - http://jupyter.readthedocs.io/en/latest/install.html 
+* [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html)
 
 # Usage
 1. Download and install Jupyter Notebook and IPython kernel
